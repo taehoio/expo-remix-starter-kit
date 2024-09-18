@@ -4,17 +4,23 @@ packages:
   - "tooling/*"
 
 catalog:
-  eslint: ^9.9.0
-  prettier: ^3.3.3
-  typescript: ^5.5.4
+  eslint: ~9.9.0
+  prettier: ~3.3.3
+  tailwindcss: ~3.4.10
+  typescript: ~5.4.5
+  zod: ~3.23.8
 
 catalogs:
   react18:
-    react: 18.3.1
-    react-dom: 18.3.1
-    "@types/react": ^18
-    "@types/react-dom": ^18
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-test-renderer: 18.2.0
+    "@types/react": ~18.2.79
+    "@types/react-dom": ~18
+  reactnative:
+    react-native: 0.74.5
+    react-native-web: ~0.19.12
   nextjs:
     next: 14.2.12
     "eslint-config-next": 14.2.12
-    "@types/node": ^20
+    "@types/node": ~20
