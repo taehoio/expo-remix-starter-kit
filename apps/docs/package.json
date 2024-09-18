@@ -10,18 +10,18 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
-    "next": "14.2.6",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "next": "catalog:nextjs",
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.6",
-    "typescript": "^5"
+    "@types/node": "catalog:nextjs",
+    "@types/react": "catalog:react18",
+    "@types/react-dom": "catalog:react18",
+    "eslint": "catalog:",
+    "eslint-config-next": "catalog:nextjs",
+    "typescript": "catalog:"
   }
 }
